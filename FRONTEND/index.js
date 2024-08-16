@@ -1,4 +1,4 @@
-import ProductoController from "../JS/ProductoJS";
+import ProductoController from "../JS/ProductoJS.js";
 
 
 

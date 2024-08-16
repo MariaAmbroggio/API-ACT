@@ -1,0 +1,13 @@
+backend
+
+&respuesta=$connection -> query($sql)
+
+error number (sirve para capturar el codigo de error.)
+
+if($respuesta==false){
+    if($connection->errno==1060){
+        $respuesta=$this->actualizar(...Parametro)
+    }
+}
+
+$this (Para hacer referencia a la instancia especifica en la que se esta trabajando)
